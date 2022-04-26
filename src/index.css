@@ -8,6 +8,7 @@
 
 body {
   background-color: #EEE;
+  padding: 10px;
 }
 
 .App {
@@ -87,6 +88,10 @@ h1 {
   color: #313131;
   font-size: 18px;
   margin-bottom: 16px;
+}
+
+.result p .searchmatch {
+  font-weight: 700;
 }
 
 .result a {
