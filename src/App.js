@@ -1,5 +1,6 @@
 import { useState } from "react";
 import Loader from "./loader";
+import Logo from "./logo.png";
 
 function App() {
 	const [search, setSearch] = useState("");
@@ -25,6 +26,12 @@ function App() {
 	return (
 		<div className="App">
 			<header>
+				<img
+					className="noselect"
+					onClick={() => window.location.reload(false)}
+					src={Logo}
+					alt="logo"
+				></img>
 				<h1 className="noselect" onClick={() => window.location.reload(false)}>
 					Wiki Search
 				</h1>
@@ -37,7 +44,9 @@ function App() {
 					/>
 				</form>
 				{searchInfo.totalhits ? (
-					<p>Search Results: {searchInfo.totalhits}</p>
+					<p>
+						Search Results: <span>{searchInfo.totalhits}</span>
+					</p>
 				) : (
 					""
 				)}

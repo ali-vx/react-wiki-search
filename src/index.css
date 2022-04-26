@@ -1,13 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap');
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 
-  font-family: 'Fira Sans', sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 body {
-  background-color: #EEE;
+  background-color: #212529;
   padding: 10px;
 }
 
@@ -26,11 +28,15 @@ header {
 }
 
 h1 {
-  color: #888;
+  color: white;
   font-size: 42px;
-  text-transform: uppercase;
   text-align: center;
   margin-bottom: 16px;
+}
+
+img {
+  width: 100px;
+  padding-bottom: 16px;
 }
 
 .search-box {
@@ -43,6 +49,11 @@ h1 {
   max-width: 480px;
   margin-bottom: 16px;
   transition: 0.4s;
+}
+
+input {
+  background-color: #2A2E32;
+  color: white;
 }
 
 .search-box input {
@@ -69,7 +80,7 @@ h1 {
   width: 100%;
   padding: 16px;
   margin-bottom: 16px;
-  background-color: white;
+  background-color: #2A2E32;
   border-radius: 16px;
   transition: 0.4s;
 }
@@ -79,13 +90,23 @@ h1 {
 }
 
 .result h3 {
-  color: #888;
-  font-size: 28px;
+  color: white;
+  font-size: 26px;
   margin-bottom: 16px;
 }
 
+p {
+  color: #A6A7A9;
+  font-size: 16px;
+  margin-bottom: 16px;
+}
+
+span {
+  color: #11998E;
+}
+
 .result p {
-  color: #313131;
+  color: #A6A7A9;
   font-size: 18px;
   margin-bottom: 16px;
 }
@@ -97,7 +118,7 @@ h1 {
 .result a {
   display: inline-block;
   padding: 12px 16px;
-  background-color: #4CAF50;
+  background-image: linear-gradient(to right, #11998E, #6DD5ED);
   color: white;
   font-weight: 700;
   text-decoration: none;
@@ -105,7 +126,7 @@ h1 {
   transition: 0.4s;
 }
 .result a:hover {
-  background-color: #3e8e41;
+  background-image: linear-gradient(to right, #0f8178, #5cb3c7);
 }
 
 .noselect {

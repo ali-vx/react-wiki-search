@@ -5,13 +5,12 @@ import PuffLoader from "react-spinners/PuffLoader";
 const override = css`
 	display: block;
 	margin: 0 auto;
-	border-color: #888;
 `;
 
 function Loader() {
 	return (
 		<div className="sweet-loading">
-			<PuffLoader css={override} size={50} />
+			<PuffLoader color="#11998E" css={override} size={50} />
 		</div>
 	);
 }
