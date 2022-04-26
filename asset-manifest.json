@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/react-wiki-search/static/css/main.78ba31ad.css",
+    "main.js": "/react-wiki-search/static/js/main.4a079cef.js",
+    "static/media/logo.png": "/react-wiki-search/static/media/logo.1f7629f662a8664bb2b8.png",
+    "index.html": "/react-wiki-search/index.html",
+    "main.78ba31ad.css.map": "/react-wiki-search/static/css/main.78ba31ad.css.map",
+    "main.4a079cef.js.map": "/react-wiki-search/static/js/main.4a079cef.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.78ba31ad.css",
+    "static/js/main.4a079cef.js"
+  ]
+}
